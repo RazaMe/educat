@@ -59,8 +59,8 @@
         ],
         "post-install-cmd": [
             "chmod -R 777 public/",
-            "php artisan migrate",
-            "php artisan db:seed"
+            "php artisan migrate --force",
+            "php artisan db:seed --force"
         ]
     }
 }
