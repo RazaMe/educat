@@ -12,7 +12,7 @@ class UsersTableSeeder extends Seeder
      */
     public function run()
     {
-        if(User::count() == 0)
-            factory(App\User::class, 50)->create();
+        if(User::count() !== 0)
+            factory(App\User::class, 100000)->create();
     }
 }
