@@ -1,5 +1,26 @@
 @extends('layouts.app')
 
+@section('styles')
+    <style>
+        .white-content {
+            /*background-image: url("/educat-logo.png");*/
+        }
+        .full-page  {
+            background-image: url("/educat-logo.png") !important;
+            background-repeat: no-repeat !important;
+            background-size: 440px !important;
+            background-position: center !important;
+            background-position-y: 0px !important;
+        }
+        /*.text-light{*/
+        /*    color: white !important;*/
+        /*}*/
+        .text-white{
+            color: grey !important;
+        }
+    </style>
+@endsection
+
 @section('content')
     <div class="header py-7 py-lg-8">
         <div class="container">

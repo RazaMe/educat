@@ -14,9 +14,12 @@
 use App\User;
 
 Route::get('/', function () {
-    return User::all();
-});
+    return view('auth.register');
+})->name('welcome');
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::resource('profile', 'ProfileController');
+Route::resource('user', 'UsersController');
+Route::resource('pages', 'PagesController');

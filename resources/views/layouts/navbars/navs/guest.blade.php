@@ -8,7 +8,7 @@
                     <span class="navbar-toggler-bar bar3"></span>
                 </button>
             </div>
-            <a class="navbar-brand" href="/">EDUCAT</a>
+            <a class="navbar-brand" href="/" style="font-size: xx-large !important;">EDUCAT</a>
         </div>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-bar navbar-kebab"></span>
@@ -23,7 +23,7 @@
 {{--                    </a>--}}
 {{--                </li>--}}
                 <li class="nav-item ">
-                    <a href="{{ route('register') }}" class="nav-link">
+                    <a href="{{ route('welcome') }}" class="nav-link">
                         <i class="tim-icons icon-laptop"></i> {{ __('Register') }}
                     </a>
                 </li>
