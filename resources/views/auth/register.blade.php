@@ -82,7 +82,7 @@
                         <img src="/educat-logo.png" alt="" class="center">
                     </div>
                 </div>
-                <form class="form" method="post" action="{{ route('register') }}">
+                <form class="form" method="post" action="{{ route('register') }}" autocomplete="off">
                     @csrf
 
                     <div class="card-body">
