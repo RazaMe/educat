@@ -16,3 +16,7 @@ use App\User;
 Route::get('/', function () {
     return User::all();
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
